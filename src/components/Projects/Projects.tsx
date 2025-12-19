@@ -30,7 +30,8 @@ const projects: Project[] = [
     description:
       "My personal portfolio built with React, TypeScript, SCSS, and a dark/light theme system.",
     tech: ["React", "TypeScript", "SCSS"],
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/omcarsawant/portfolio",
+    live: "https://omkarsawant.vercel.app/"
   },
   {
     title: "getRecipe",
@@ -87,3 +88,4 @@ const Projects = (): JSX.Element => {
 };
 
 export default Projects;
+
