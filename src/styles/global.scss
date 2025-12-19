@@ -1,0 +1,28 @@
+@use "./variables" as v;
+@use "./mixins";
+@use "./themes";
+@use "./animations";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  scroll-margin-top: 80px; // navbar offset
+}
+html {
+  scroll-behavior: smooth;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+body {
+  font-family: v.$font-body;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+

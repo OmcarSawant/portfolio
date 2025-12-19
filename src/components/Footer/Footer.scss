@@ -1,0 +1,13 @@
+@use "../../styles/variables" as v;
+
+.footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: var(--surface);
+  border-top: 1px solid var(--accent-soft);
+
+  p {
+    font-size: v.$fs-sm;
+    color: var(--text-secondary);
+  }
+}

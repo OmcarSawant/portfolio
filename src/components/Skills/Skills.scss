@@ -1,0 +1,48 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+
+.skills {
+  padding: v.$section-padding 0;
+
+  &__container {
+    @include m.container;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1.2rem;
+  }
+
+  &__card {
+    background: var(--surface);
+    border-radius: v.$border-radius;
+    padding: 1.4rem 1rem;
+    text-align: center;
+    cursor: default;
+
+    transition: var(--transition);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+    .icon {
+      font-size: 1.6rem;
+      color: var(--accent);
+      margin-bottom: 0.6rem;
+      display: block;
+    }
+
+    .label {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    &:hover {
+      transform: translateY(-4px);
+    }
+  }
+}

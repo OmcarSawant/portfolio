@@ -1,0 +1,32 @@
+.theme-toggle {
+  position: fixed;
+  top: 0.8rem;
+  right: 2rem;
+  z-index: 1000;
+
+  background: var(--surface);
+  color: var(--text-primary);
+  border: none;
+  border-radius: 50%;
+
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: var(--transition);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+
+  svg {
+    font-size: 1.2rem;
+  }
+
+  &:hover {
+    transform: scale(1.08);
+    color: var(--accent);
+  }
+}

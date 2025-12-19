@@ -1,0 +1,26 @@
+/* Flexbox helpers */
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Container */
+@mixin container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Responsive helper */
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}

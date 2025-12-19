@@ -1,0 +1,62 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+
+.experience {
+  padding: v.$section-padding 0;
+
+  &__container {
+    @include m.container;
+    max-width: 820px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  &__item {
+    background: var(--surface);
+    padding: 1.6rem;
+    border-radius: v.$border-radius;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+
+    h3 {
+      font-size: 1.05rem;
+    }
+
+    span {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+  }
+
+  &__company {
+    font-size: 0.9rem;
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+
+    li {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 0.4rem;
+    }
+  }
+}

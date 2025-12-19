@@ -1,0 +1,27 @@
+/* 🌙 Dark Theme */
+body[data-theme="dark"] {
+  --bg: #0b0f19;
+  --surface: #111827;
+
+  --navbar-bg: rgba(17, 24, 39, 0.75);
+  --navbar-border: rgba(56, 189, 248, 0.15);
+
+  --text-primary: #e5e7eb;
+  --text-secondary: #9ca3af;
+  --accent: #38bdf8;
+  --accent-soft: rgba(56, 189, 248, 0.15);
+}
+
+/* ☀️ Light Theme */
+body[data-theme="light"] {
+  --bg: #f9fafb;
+  --surface: #ffffff;
+
+  --navbar-bg: rgba(255, 255, 255, 0.85);
+  --navbar-border: rgba(37, 99, 235, 0.15);
+
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --accent: #2563eb;
+  --accent-soft: rgba(37, 99, 235, 0.15);
+}

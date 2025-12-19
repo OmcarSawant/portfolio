@@ -1,0 +1,16 @@
+/* Design tokens */
+$max-width: 1200px;
+$section-padding: 5rem;
+$border-radius: 14px;
+// fonts 
+$font-heading: "Poppins", sans-serif;
+$font-body: "Inter", system-ui, sans-serif;
+/* Font sizes */
+$fs-xl: clamp(2.2rem, 5vw, 3.2rem);
+$fs-lg: 1.5rem;
+$fs-md: 1rem;
+$fs-sm: 0.875rem;
+
+/* Z-index scale */
+$z-navbar: 100;
+$z-toggle: 1000;

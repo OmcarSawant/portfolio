@@ -1,0 +1,62 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+
+.about {
+  padding: v.$section-padding 0;
+
+  &__content {
+    @include m.container;
+    max-width: 760px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: v.$fs-md;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  &__divider {
+    height: 1px;
+    background: var(--accent-soft);
+    margin: 2rem 0;
+  }
+
+  &__education {
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+/* Education card */
+.education__item {
+  background: var(--surface);
+  padding: 1.2rem 1.4rem;
+  border-radius: v.$border-radius;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  &__college,
+  .education__college {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.2rem;
+  }
+
+  &__duration,
+  .education__duration {
+    font-size: 0.8rem;
+    color: var(--accent);
+  }
+}
