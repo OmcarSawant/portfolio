@@ -44,7 +44,7 @@ const projects: Project[] = [
     title : "smartCC",
     description:
       "Smart career companion Application with AI integrated .",
-    tech :["React", "Typescript" , "SCSS"],
+    tech :["React", "Typescript" , "SCSS" , "gemini API"],
   }
 ];
 
@@ -93,5 +93,6 @@ const Projects = (): JSX.Element => {
 };
 
 export default Projects;
+
 
 
