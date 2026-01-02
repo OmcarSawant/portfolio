@@ -40,7 +40,12 @@ const projects: Project[] = [
     tech: ["React", "JavaScript", "SCSS"],
     github: "https://github.com/OmcarSawant/get-recipe-",
     live:"https://getrecipe.vercel.app/",
-  },
+  },{
+    title : "smartCC",
+    description:
+      "Smart career companion Application with AI integrated .",
+    tech :["React", "Typescript" , "SCSS"],
+  }
 ];
 
 const Projects = (): JSX.Element => {
@@ -88,4 +93,5 @@ const Projects = (): JSX.Element => {
 };
 
 export default Projects;
+
 
