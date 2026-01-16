@@ -45,6 +45,13 @@ const projects: Project[] = [
     description:
       "Smart career companion Application with AI integrated .",
     tech :["React", "Typescript" , "SCSS" , "gemini API"],
+  },{
+    title : "cognifychat",
+    description : 
+      "AI agent chatbot platform , create and chat with the bot that aligns with your goal.",
+    tech : ["React","Javascript","ExpressJS","MongoDB","OpenAI"],
+    github:"https://github.com/OmcarSawant/cognify_frontend",
+    live:"https://cognifychat.vercel.app/",
   }
 ];
 
@@ -93,6 +100,7 @@ const Projects = (): JSX.Element => {
 };
 
 export default Projects;
+
 
 
 
