@@ -52,7 +52,14 @@ const projects: Project[] = [
     tech : ["React","Javascript","ExpressJS","MongoDB","OpenAI"],
     github:"https://github.com/OmcarSawant/cognify_frontend",
     live:"https://cognifychat.vercel.app/",
-  }
+  },{
+    title : "shankh cabs",
+    description:
+      "Single page application made for the client as per the requirements.",
+    tech:["React , SCSS"],
+    github : "https://github.com/OmcarSawant/shankhCabs",
+    live :"https://shankh-cabs.vercel.app/"
+  },
 ];
 
 const Projects = (): JSX.Element => {
@@ -100,6 +107,7 @@ const Projects = (): JSX.Element => {
 };
 
 export default Projects;
+
 
 
 
