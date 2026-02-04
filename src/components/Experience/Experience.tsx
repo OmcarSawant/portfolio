@@ -13,7 +13,7 @@ const experiences: ExperienceItem[] = [
   {
     role: "Intern",
     company: "OpenText",
-    duration: "May 2025 – Oct 2025",
+    duration: "April 2025 – October 2025",
     points: [
       "Worked with engineering teams to understand backend workflows and authentication systems.",
       "Designed and executed automated test workflows for OAuth and SAML-based systems.",
@@ -59,3 +59,4 @@ const Experience = (): JSX.Element => {
 };
 
 export default Experience;
+
