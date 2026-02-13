@@ -53,6 +53,14 @@ const projects: Project[] = [
     github:"https://github.com/OmcarSawant/cognify_frontend",
     live:"https://cognifychat.vercel.app/",
   },{
+    title : "LinkKeep",
+    description:
+      "A modern, full-stack bookmark manager built with Next.js 14, Supabase, and Tailwind CSS.",
+    tech:["NextJS" , "Supabase" , "OAuth"],
+    github : "https://github.com/OmcarSawant/linkKeep",
+    live :"https://link-keep-green.vercel.app/"
+  }
+  ,{
     title : "shankh cabs",
     description:
       "Single page application made for the client as per the requirements.",
@@ -107,6 +115,7 @@ const Projects = (): JSX.Element => {
 };
 
 export default Projects;
+
 
 
 
