@@ -32,7 +32,7 @@ const projects: Project[] = [
       "Single page application made for the client as per the requirements.",
     tech:["React , SCSS"],
     github : "https://github.com/OmcarSawant/shankhCabs",
-    live :"https://shankh-cabs.vercel.app/"
+    live :"https://shankhcabs.in"
   },
   {
     title: "HomeQuest",
