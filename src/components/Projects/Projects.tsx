@@ -12,6 +12,29 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title : "cognifychat",
+    description : 
+      "AI agent chatbot platform , create and chat with the bot that aligns with your goal.",
+    tech : ["React","Javascript","ExpressJS","MongoDB","OpenAI"],
+    github:"https://github.com/OmcarSawant/cognify_frontend",
+    live:"https://cognifychat.vercel.app/",
+  },{
+    title : "LinkKeep",
+    description:
+      "A modern, full-stack bookmark manager built with Next.js 14, Supabase, and Tailwind CSS.",
+    tech:["NextJS" , "Supabase" , "OAuth"],
+    github : "https://github.com/OmcarSawant/linkKeep",
+    live :"https://link-keep-green.vercel.app/"
+  }
+  ,{
+    title : "shankh cabs",
+    description:
+      "Single page application made for the client as per the requirements.",
+    tech:["React , SCSS"],
+    github : "https://github.com/OmcarSawant/shankhCabs",
+    live :"https://shankh-cabs.vercel.app/"
+  },
+  {
     title: "HomeQuest",
     description:
       "A full-stack property listing and messaging platform with authentication and REST APIs.",
@@ -45,29 +68,7 @@ const projects: Project[] = [
     description:
       "Smart career companion Application with AI integrated .",
     tech :["React", "Typescript" , "SCSS" , "gemini API"],
-  },{
-    title : "cognifychat",
-    description : 
-      "AI agent chatbot platform , create and chat with the bot that aligns with your goal.",
-    tech : ["React","Javascript","ExpressJS","MongoDB","OpenAI"],
-    github:"https://github.com/OmcarSawant/cognify_frontend",
-    live:"https://cognifychat.vercel.app/",
-  },{
-    title : "LinkKeep",
-    description:
-      "A modern, full-stack bookmark manager built with Next.js 14, Supabase, and Tailwind CSS.",
-    tech:["NextJS" , "Supabase" , "OAuth"],
-    github : "https://github.com/OmcarSawant/linkKeep",
-    live :"https://link-keep-green.vercel.app/"
   }
-  ,{
-    title : "shankh cabs",
-    description:
-      "Single page application made for the client as per the requirements.",
-    tech:["React , SCSS"],
-    github : "https://github.com/OmcarSawant/shankhCabs",
-    live :"https://shankh-cabs.vercel.app/"
-  },
 ];
 
 const Projects = (): JSX.Element => {
